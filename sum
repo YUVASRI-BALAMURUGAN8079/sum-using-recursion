@@ -1,0 +1,15 @@
+#include<stdio.h>
+sum();
+int main()
+{
+    sum();
+	return 0;
+}
+sum()
+{
+	int a,b,c,d;
+	printf("\nEnter any four numbers : ");
+	scanf("%d%d%d%d",&a,&b,&c,&d);
+	printf("The sum is : %d",a+b+c+d);
+	sum();
+}
